@@ -1,0 +1,51 @@
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+.tarefa {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #292, inset 0 0 5px #292;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #292;
+  padding: 5px;
+  background-color: #333;
+  width: 350px;
+  margin: 5px 0;
+  transition: 0.2s;
+}
+.tarefa:hover{
+  transition: 0.2s;
+  box-shadow: 0 0 5px 1px #292, inset 0 0 5px 1px #292;
+}
+.tarefaText {
+  overflow:hidden;
+  padding: 5px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #292;
+}
+.tarefaDel {
+  cursor: pointer;
+  color: #a32;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: 0.2s;
+}
+.tarefaDel:hover{
+  color: #c32;
+  text-shadow:#c32 0.3px -0.3px, #c32 -0.3px 0.3px, #c32 0.3px 0.3px, #c32 -0.3px -0.3px;
+  filter: drop-shadow(0 0 2px #cc3322ff);
+  transition: 0.2s;
+}
+
+@media (max-width: 450px){
+  .tarefa{
+    width: 250px;
+  }
+}

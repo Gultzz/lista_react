@@ -1,0 +1,45 @@
+.text-submit {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.textsubmit {
+  box-shadow: 0 0 5px #292, inset 0 0 5px #292;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+.text {
+  border: 2px solid #292;
+  box-shadow: 0 0 5px #292;
+  float: 3;
+  outline: none;
+  color: #3a3;
+  background-color: #333;
+  height: 45px;
+  width: 50%;
+}
+.text::placeholder{
+  color: #292;
+}
+.submit {
+  box-shadow: 0 0 5px #292, inset 0 0 5px #292;
+  background-color: transparent;
+  color: #292;
+  width: 35%;
+  border: 2px solid #292;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.submit:hover {
+  box-shadow: 0 0 5px #292, inset 0 0 5px #292;
+  background-color: #292;
+  border: 2px solid #292;
+  transition: 0.5s;
+  color: #333;
+}
